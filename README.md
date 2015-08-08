@@ -1,5 +1,14 @@
-# star
-开发环境（可以按这个顺序安装）
+项目采用的开源框架
+
+spring
+
+spring mvc
+
+mybatis
+
+logback
+
+可按下述步骤搭建环境
 
 1 java
 
@@ -7,16 +16,21 @@
 
 3 mysql
 
-4 开发工具（推荐Intellij Idea）
+4 Intellij Idea
 
-5 版本控制工具 git
+5 Git
 
-6 依赖管理工具 maven
+6 maven
 
-需要熟悉：
+=============================
+后续计划
+主页实现，首先需排除静态文件拦截
+后续登录认证和权限管理可以考虑是自己实现还是采用开源框架 spring security、shrio
+数据库登录表设计
+=============================
+已经完成
 
-spring、spring mvc、mybatis
+开发框架搭建
+添加日志
+添加jQuery、Bootstrap
 
-后续登录认证和权限管理可以考虑是自己实现还是采用开源框架
-
-spring security 、shrio
