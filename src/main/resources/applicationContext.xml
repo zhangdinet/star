@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd">
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <!--<context:property-placeholder file-encoding="UTF-8" ignore-resource-not-found="true"
+                                  location="classpath:config.properties"/>-->
+
+    <!--<import resource="classpath*:persistance.xml"/>
+    <import resource="application-statemachine.xml"/>
+    <import resource="command-config.xml"/>
+    <import resource="command-processor.xml"/>-->
 
     <!--
         <bean id="message" class="org.springbyexample.di.app.Message">
