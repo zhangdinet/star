@@ -1,5 +1,6 @@
 package com.star;
 
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
@@ -21,5 +22,11 @@ public class HomeController {
         logger.info("index finished");
 		return "home";
 	}
+
+    @RequestMapping(value = "/demoPrint", method = RequestMethod.GET)
+    public void demoPrint(ModelMap model) {
+        model.addAttribute("message", "test!!!");
+        System.out.println("just a test demo!");
+    }
 
 }
