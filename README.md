@@ -17,6 +17,10 @@ mybatis
 
 logback
 
+junit
+
+mockito
+
 =============================
 
 开发环境搭建
@@ -37,7 +41,7 @@ logback
 
 后续计划
 
-主页实现，首先需排除静态文件拦截
+主页实现
 
 后续登录认证和权限管理可以考虑是自己实现还是采用开源框架 spring security、shrio
 
@@ -52,4 +56,6 @@ logback
 添加日志
 
 添加jQuery、Bootstrap
+
+排除静态文件拦截
 
