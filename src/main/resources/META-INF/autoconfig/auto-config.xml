@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config description="供应链AutoConf配置信息">
+    <group name="sfht.logistics.config.setting">
+        <property name="com.sfebiz.logistics.datasource.url" description="数据库地址" required="true"/>
+        <property name="com.sfebiz.logistics.datasource.username" description="数据库用户名" required="true"/>
+        <property name="com.sfebiz.logistics.datasource.password" description="数据库密码" required="true"/>
+    </group>
+
+    <script>
+        <generate template="config.properties.vm" destfile="config.properties" charset="UTF-8"/>
+    </script>
+</config>

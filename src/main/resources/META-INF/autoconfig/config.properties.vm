@@ -1,0 +1,3 @@
+com.star.datasource.url=${com.sfebiz.logistics.datasource.url}
+com.star.datasource.username=${com.sfebiz.logistics.datasource.username}
+com.star.datasource.password=${com.sfebiz.logistics.datasource.password}
