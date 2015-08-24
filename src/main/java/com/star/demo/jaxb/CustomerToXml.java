@@ -1,4 +1,4 @@
-package com.star.demo;
+package com.star.demo.jaxb;
 
 import java.io.File;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.star.demo;
+package com.star.demo.jaxb;
 
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlAccessType;
 
 /**
- * Created by Administrator on 2015/8/19.
+ * Created by zhangdi on 2015/8/19.
  */
 
 @XmlAccessorType(XmlAccessType.FIELD)

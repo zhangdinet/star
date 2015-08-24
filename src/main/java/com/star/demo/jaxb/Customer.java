@@ -1,8 +1,7 @@
-package com.star.demo;
+package com.star.demo.jaxb;
 
 import java.util.Set;
 
-import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
