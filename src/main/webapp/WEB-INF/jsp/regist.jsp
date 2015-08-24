@@ -1,3 +1,4 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE HTML>
 <html>
@@ -9,9 +10,9 @@
     <title>star主页</title>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
             </button>
@@ -22,36 +23,20 @@
                     <li class="">
                         <a href="">Dashboard</a>
                     </li>
-                    <li class="active">
-                        <a href="/regist">注册</a>
-                    </li>
-                    <li class="">
-                        <a href="www.baidu.jsp">百度</a>
-                    </li>
-                    <li class="">
-                        <a href="">Customize</a>
-                    </li>
-                    <li>
-                        <a href="www.baidu.com">注册页标记</a>
-                    </li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+<div style="margin-top: 100px">
+    <form action="insert" method="post">
+        姓名<input type="text" id="name"/><br>
+        邮箱<input type="text" id="email"/><br>
+        密码<input type="password" id="password"/><br>
+        确认密码<input type="password" id="confirmPassword"/><br>
+        <input type="submit" value="提交">
 
-<h1 style="margin-top: 50px;">${message}</h1>
-
-<div>
-    <%
-        System.out.println(request.getServletPath());
-    %>
-</div>
-
-<h1>中文测试</h1>
-
-<div>
-    <img src="/static/images/google.png">
+    </from>
 </div>
 </body>
 </html>
