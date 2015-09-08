@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.star.demo.json.DemoJson;
+
 @Controller
 @RequestMapping("/")
 public class HomeController {
@@ -42,4 +44,10 @@ public class HomeController {
         return "home";
     }
 
+    @RequestMapping(value = "/testJson")
+    public String testJson(ModelAndView mv) {
+        int a = 10;
+        //DemoJson.testJson();
+        return "demo";
+    }
 }
